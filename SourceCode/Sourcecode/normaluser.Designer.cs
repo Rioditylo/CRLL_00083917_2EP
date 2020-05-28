@@ -214,6 +214,7 @@ namespace HugoApp
             this.tabPage2.BackColor = System.Drawing.Color.MediumPurple;
             this.tabPage2.Controls.Add(this.groupBox5);
             this.tabPage2.Controls.Add(this.groupBox4);
+            this.tabPage2.ForeColor = System.Drawing.Color.Black;
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
@@ -226,7 +227,9 @@ namespace HugoApp
             // 
             this.groupBox5.Controls.Add(this.tableLayoutPanel1);
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox5.ForeColor = System.Drawing.Color.Black;
+            this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.groupBox5.ForeColor = System.Drawing.Color.White;
             this.groupBox5.Location = new System.Drawing.Point(3, 265);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox5.Name = "groupBox5";

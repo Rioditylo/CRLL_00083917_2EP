@@ -44,12 +44,12 @@ namespace HugoApp
                                                         $" {false})");
                        }
 
-                       MessageBox.Show("El usuario ha sido creado");
+                       MessageBox.Show("El usuario se creo ");
                    }
                }
                catch (Exception ex)
                {
-                   MessageBox.Show("El usuario ya existe...");
+                   MessageBox.Show("El usuario ya existe");
                }
            }
        }
@@ -121,7 +121,7 @@ namespace HugoApp
             
            ConnectionBD.ExecuteNonQuery($"DELETE FROM public.appuser WHERE idUser = {idd}");
 
-           MessageBox.Show("El usuario ha sido eliminado!");
+           MessageBox.Show("El usuario fue eliminado");
        }
 
        private void button4_Click(object sender, EventArgs e)
@@ -138,7 +138,7 @@ namespace HugoApp
                    ConnectionBD.ExecuteNonQuery($"INSERT INTO public.business(name, description)" +
                                                 $" VALUES('{textBox3.Text}', '{textBox4.Text}')");
 
-                   MessageBox.Show("Se ha creado el negocio");
+                   MessageBox.Show("Se creo el negocio");
                }
                catch (Exception ex)
                {
@@ -156,7 +156,7 @@ namespace HugoApp
             
            ConnectionBD.ExecuteNonQuery($"DELETE FROM public.business WHERE idBusiness = {id3}");
 
-           MessageBox.Show("El negocio ha sido eliminado!");
+           MessageBox.Show("El negocio se elimino");
        }
 
        private void button6_Click(object sender, EventArgs e)
@@ -177,7 +177,7 @@ namespace HugoApp
                    ConnectionBD.ExecuteNonQuery($"INSERT INTO public.product(idBusiness, name)" +
                                                 $" VALUES({id4}, '{textBox5.Text}')");
 
-                   MessageBox.Show("Se ha guardado el producto");
+                   MessageBox.Show("Se guardo el producto");
                }
                catch (Exception ex)
                {
@@ -195,7 +195,7 @@ namespace HugoApp
             
      ConnectionBD.ExecuteNonQuery($"DELETE FROM public.product WHERE idProduct = {id5}");
 
-     MessageBox.Show("El producto ha sido eliminado!");
+     MessageBox.Show("El producto se elimino");
  }
 
  private void button8_Click(object sender, EventArgs e)

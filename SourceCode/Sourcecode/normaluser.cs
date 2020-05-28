@@ -29,7 +29,7 @@ namespace HugoApp
                     ConnectionBD.ExecuteNonQuery($"INSERT INTO public.address(idUser, address)" +
                                                  $" VALUES({id}, '{textBox1.Text}')");
 
-                    MessageBox.Show("La direccion se ha guardado!");
+                    MessageBox.Show("La direccion se guardo");
                 }
                 catch (Exception ex)
                 {
@@ -86,7 +86,7 @@ namespace HugoApp
             
             ConnectionBD.ExecuteNonQuery($"DELETE FROM public.address WHERE idAddress = {idd}");
 
-            MessageBox.Show("La direccion ha sido eliminada!");
+            MessageBox.Show("La direccion se elimino");
         }
 
 
@@ -110,7 +110,7 @@ namespace HugoApp
                     ConnectionBD.ExecuteNonQuery(
                         $"UPDATE public.address SET address = '{textBox2.Text}' WHERE idAddress = {id2}");
 
-                    MessageBox.Show("Se ha modificado la direccion");
+                    MessageBox.Show("Se modifico la direccion");
                 }
                 catch (Exception ex)
                 {
@@ -139,7 +139,7 @@ namespace HugoApp
                 ConnectionBD.ExecuteNonQuery($"INSERT INTO public.appOrder(createDate, idProduct, idAddress)" +
                                              $" VALUES('{date}', {id4}, {id3})");
 
-                MessageBox.Show("Su orden ha sido procesada");
+                MessageBox.Show("Su orden esta en camino BUEN PROVECHO");
             }
             catch (Exception exception)
             {

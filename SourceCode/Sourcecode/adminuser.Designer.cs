@@ -111,8 +111,7 @@ namespace HugoApp
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (59)))), ((int) (((byte) (33)))),
-                ((int) (((byte) (94)))));
+            this.tabPage1.BackColor = System.Drawing.Color.Purple;
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
@@ -327,8 +326,7 @@ namespace HugoApp
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (59)))), ((int) (((byte) (33)))),
-                ((int) (((byte) (94)))));
+            this.tabPage2.BackColor = System.Drawing.Color.Purple;
             this.tabPage2.Controls.Add(this.groupBox5);
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
@@ -454,8 +452,7 @@ namespace HugoApp
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (59)))), ((int) (((byte) (33)))),
-                ((int) (((byte) (94)))));
+            this.tabPage3.BackColor = System.Drawing.Color.Purple;
             this.tabPage3.Controls.Add(this.groupBox7);
             this.tabPage3.Controls.Add(this.groupBox6);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
@@ -594,6 +591,7 @@ namespace HugoApp
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.Purple;
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));

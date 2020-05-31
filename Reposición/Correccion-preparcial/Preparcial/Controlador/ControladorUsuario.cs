@@ -60,7 +60,7 @@ namespace Preparcial.Controlador
                 ConexionBD.EjecutarComando($"UPDATE USUARIO SET contrasenia = '{nueva}' " +
                     $"WHERE idUsuario = {idUsuario}");
 
-                MessageBox.Show("Se ha actualizado la contrasena");
+                MessageBox.Show("Se actualizo la contrasena");
             }
             catch(Exception ex)
             {
@@ -76,7 +76,7 @@ namespace Preparcial.Controlador
                 ConexionBD.EjecutarComando("INSERT INTO USUARIO(nombre, contrasenia, tipo)" +
                     $" VALUES('{usuario}', '{usuario}', false)");
 
-                MessageBox.Show("Se ha agregado el nuevo usuario, contrasenia igual al nombre");
+                MessageBox.Show("Se agregao un nuevo usuario, la contrasena ser igual nombre");
             }
             catch(Exception ex)
             {
